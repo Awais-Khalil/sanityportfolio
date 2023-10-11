@@ -9,7 +9,7 @@ interface Data {
     imageUrl: string;
 }
 
-export async function getProjects() {
+async function getProjects() {
     const query = `
     
     *[_type == "project"] {
